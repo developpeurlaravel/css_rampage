@@ -1,3 +1,3 @@
 # css_rampage
-
-ketrika css pure ranoray front end award challenge lets go
+# css-pure web design creation de lova rasolondraibe 
+# challenge acceptés de white coders gasy
