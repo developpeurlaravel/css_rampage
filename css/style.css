@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    font-family: "Montserrat",sans-serif;
+    /* LINE hauteur body ao amle categorie io midina */
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 500;
+    background-color: #fbfbfb;
+}
+
+@media screen and (max-width: 780px) {
+    body, html {
+        background-color: pink;
+        max-width: 123px;
+    }
+}
+/* reefa position fixed de tsmaits mis margin0 n body  */
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: white;
+    /* pading haut et en bas, gauche droite */
+    padding: 30px;
+    /* le nav bar mscrolle any abany de mapiasa z index */
+    z-index: 3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .05) ;
+
+}
+
+.topbar nav {
+    float: left;
+}
+.topbar nav a {
+    color: grey;
+    text-decoration: none;
+    /* font text */
+    font-weight: 500;
+    /* manisaka nav a lien retra */
+    margin: 0 53px;
+    /* hauteur ligne */
+    line-height: 23px;
+}
+.topbar nav a:hover, .topbar nav a.active {
+    color: black;
+}
+
+
+/* mialigner zavtra a droite na gauche n float */
+ .social {
+    float: right;
+}
+.social a {
+    padding: 0 12px;
+    /* somary transparent le twitter lien */
+    opacity: .5;
+}
+.social a:hover {
+    /* hover de mverina norme le sary  */
+    opacity: 1;
+}
+.banniere  {
+    /* hauteur sary */
+    height: 472px;
+    /* centre immage amzay ts mvoboka be */
+    background: no-repeat center center / cover url("../img/spid1.jpg");
+    
+}
+
+.main {
+    float: left;
+        height: 290px;
+        background-color: white;
+    /* larguer calc calcul larg */
+    width: 290%;
+      /* 3d */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .05) ;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+
+.sidebar {
+    position: relative;
+    float: right;
+    background: rgb(230, 226, 226);
+    width:  375px;
+    padding: 40px;
+      /* taile de police miova soratra retra RA 178 Zao de lasa glade be*/
+      font-size: 17px;
+      /* le otran tsara b le eo am categorie manatsara 3d */
+      box-shadow: 0 4px 30px #000 ;
+      z-index: 1;
+}
+
+.sidebar-title{
+    font-size: 30px;
+    color: black;
+    margin: 10px 0;
+
+}
+/* enfant reetra de tss maarge */
+.sidebar-title:first-child {
+    margin-top: 0;
+}
+
+.sidebar a{
+    color: #9f9f9f;
+    text-decoration: none;
+}
+.sidebar ul {
+    /* ul ao am hgtech tss marg */
+    margin:0;
+    padding: 0;
+    /* manala anle teboka amle ul li ren */
+    list-style: none;
+    /* le eo anelanelan sorata hig tec s concetre web */
+    line-height: 2.3;
+}
+
+.sidebar li {
+    /* marge interier haut bas et gauch drot  */
+    padding: 6px 0;
+}
+.sidebar li:first-child {
+    /* ESPACEMENT EVITER */
+    padding-top: 0;
+}
+.sidebar li:last-child {
+    padding-bottom: 0;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.article img {
+    /* mkisaka ery am sisiny  gauxhe sns */
+ float: left;
+
+ /*position: absolute;*/
+ left: 0;
+ top: 0;
+ width: 308px;
+ margin-right: 25px;
+}
+.bonjour {
+    text-align: center;
+    font-size: small;
+}
+.carriere {
+    text-align: right;
+    font-size: 1.2rem;
+    margin: 0 120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.article {
+    /* manakisaka sary na p h1 mahitsy les un sur les autre */
+    overflow: hidden;
+    margin: 50px 0;
+    /*position: relative;*/
+    /*padding-left: 333px;*/
+    min-height: 203px;
+    max-width: 940px;
+}
+
+.article a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.article a:hover {
+    /* mandalo souris de mande le zvtr maint2 */
+    text-decoration: underline;
+}
+
+.article-img img {
+ width: 100%;
+ height: auto;
+}
+
+.article-date {
+    font-weight: 300px;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 5px;
+}
+
+.article-title {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: "cardo", serif;
+    margin:  0 0 15px 0;
+}
+
+.footer {
+    clear: both;
+    float: right;
+    padding: 650px 0;
+
+}
